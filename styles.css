@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #40514E;
+
+}
+h1 {
+  margin: 0 0 0 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom_cloud {
+  position: absolute;
+}
+.top_cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+.mma_img{
+  border-radius: 70%;
+  width: 200px;
+  opacity: 0.5;
+  float: left;
+  padding: 10px 10px 30px auto;
+}
+.surfing_img{
+  border-radius: 70%;
+  width: 200px;
+  opacity: 0.5;
+  float: right;
+  padding: 30px auto 40px auto
+
+}
+.my_img {
+  border-radius: 70%;
+  width: 200px;
+  opacity: 0.5;
+  padding-top: 30px;
+}
+.mountain_img{
+  opacity: 0.8;
+}
+.footer-link {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+ .footer-link:hover {
+   color: #EAF6F6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.myButton {
+	background-color:#599bb3;
+	border-radius:41px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

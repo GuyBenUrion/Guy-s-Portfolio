@@ -34,6 +34,8 @@ hr {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .bottom_cloud {

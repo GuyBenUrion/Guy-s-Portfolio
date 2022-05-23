@@ -59,13 +59,18 @@ hr {
   opacity: 0.5;
   float: right;
   padding: 30px auto 40px auto
-
+}
+.surfing_img:hover {
+  opacity: 1;
 }
 .my_img {
   border-radius: 70%;
   width: 200px;
   opacity: 0.5;
   padding-top: 30px;
+}
+.mma_img:hover {
+  opacity: 1;
 }
 .mountain_img{
   opacity: 0.8;

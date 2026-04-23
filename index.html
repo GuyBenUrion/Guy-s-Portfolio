@@ -1,155 +1,370 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Guy Ben Urion — Software Developer based in Tel Aviv."
+    />
+    <title>Guy Ben Urion</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Guy Ben Urion</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather&family=Montserrat&family=Sacramento&family=Ubuntu&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <div class="top">
-    <img class="top_cloud" src="cloud.png" alt="cloud">
-    <h1 margin: 0px;>I'm Guy</h1>
-    <h2>Software Developer</h2>
-    <img class="bottom_cloud" src="cloud.png" alt="cloud">
-    <img class="mountain_img" src="mountain.png" alt="mountain"><br><br><br><br>
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="my_img" src="https://cdn-icons-png.flaticon.com/512/7211/7211824.png" alt="">
-      <h2>Hello.</h2>
-      <p>My name is Guy Ben Urion, I'm responsible, curious, thorough, and highly motivated to learn, study and develop,
-        with excellent interpersonal communication skills. Experienced with working under pressure and looking for a new
-        professional challenge as a Full Stack/Backend developer</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Projects.</h2>
-      <p>During my software developing learning, I developed some mini projects. In every project I focused on a different topic.
-        <br>Just click the icons and Enjoy!
-      </p>
-
-      <div class="skill-row">
-        <a href="https://github.com/GuyBenUrion/excel-viewer" target="_blank">
-          <img class="mma_img"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt__gdZwhO3aSPCNy6b8HwnR5E5AARVCA1wQ&s"
-            alt="Excel Viewer & Editor">
-        </a>
-        <h3>Excel File Viewer & Editor</h3>
-        <p>A full-stack web app built with Angular and Flask for viewing and editing Excel files. Users can upload .xlsx or .xls files, preview them in cards, view full content with pagination, and edit cells directly in the UI. Changes are stored locally in IndexedDB and sent to the server only when saved. Uses SheetJS on the frontend and OpenPyXL on the backend for Excel handling. Designed for performance and offline-friendly editing.</p>
-      </div> <br><br><br>
-
-      <div class="skill-row">
-        <a href="https://github.com/GuyBenUrion/live-data-visualizer/tree/master?tab=readme-ov-file" target="_blank">
-          <img class="surfing_img"
-            src="https://img.freepik.com/premium-vector/realtime-analytics-realtime-monitoring-live-data-analysis-vector-icon-design_896042-1286.jpg"
-            alt="Real-Time Data Visualization Dashboard">
-        </a>
-        <h3>Live Data Dashboard</h3>
-        <p>Live Data Dashboard is a real-time data visualization dashboard that streams and displays high-frequency data (100 samples/sec, 10 values per sample) from a TCP server. Built with Python (backend) and React + Recharts (frontend), it leverages WebSockets for efficient real-time data transmission and dynamic visualization. </p>
-      </div> <br><br><br>
-
-      <div class="skill-row">
-        <a href="https://github.com/GuyBenUrion/mqtt_chat" target="_blank">
-          <img class="mma_img"
-            src="https://repository-images.githubusercontent.com/239282571/1a0d6900-4be2-11ea-8555-f641d8b63040"
-            alt="MQTT chat">
-        </a>
-        <h3>MQTT Chat App</h3>
-        <p>This project uses MQTT to enable real-time messaging and file sharing between clients. It supports direct messaging, client lookup, and offline message storage, ensuring reliable communication and seamless file transfers.</p>
-      </div> <br><br><br>
-
-      <div class="skill-row">
-        <a href="https://github.com/GuyBenUrion/ip_finder/tree/master" target="_blank">
-          <img class="surfing_img"
-            src="https://play-lh.googleusercontent.com/O7MC6mxlgo3OBFoZobmU8h7fjt8Eu-Wqym_dm_EeFEMwBx0u47ZRV8IDsn1g4I6d6A"
-            alt="IP Finder">
-        </a>
-        <h3>IP Finder App</h3>
-        <p>A web application for retrieving both local and domain IP addresses. Built with a FastAPI backend and a React frontend, the project is fully containerized using Docker and managed efficiently with Docker Compose.</p>
-      </div> <br><br><br>
-
-      <div class="skill-row">
-        <a href="https://lorem-ipsum-generator-seven.vercel.app/" target="_blank">
-          <img class="mma_img"
-            src="https://img.uxcel.com/practices/lorem-ipsum-1629200698112/a-1704914000276-2x.jpg"
-            alt="Lipsum Image">
-        </a>
-        <h3>Lorem Ipsum Generator</h3>
-        <p>Tired of using Lorem Ipsum? In this project you can generate Hipster Lipsum paragraphs! I developed it using
-          React forms.</p>
-      </div> <br><br><br>
-
-      <div class="skill-row">
-        <a href="https://tin-dog-kappa.vercel.app/" target="_blank">
-          <img class="surfing_img" src="dog.png" alt="">
-        </a>
-        <h3>TinDog</h3>
-        <p>For this project, i studied Bootstrap, and used some of it features.</p>
-      </div> <br><br><br>
-      <div class="skill-row">
-        <a href="https://kanye-west-project.vercel.app/" target="_blank">
-          <img class="mma_img" src="https://cdn-icons-png.flaticon.com/512/1853/1853076.png" alt="">
-        </a>
-        <h3>Kanye REST</h3>
-        <p>This is one of my first React projects, here i used different hooks, timing manipulations, and REST API.</p>
-      </div> <br><br><br>
-      <div class="skill-row">
-        <a href="https://keeper-sand.vercel.app/" target="_blank">
-          <img class="surfing_img" src="https://cdn-icons-png.flaticon.com/512/3068/3068819.png" alt="">
-        </a>
-        <h3>Keeper</h3>
-        <p>This app is made for keeping notes to yourself. I developed it using React, and different and more complex
-          hooks,
-          connecting different components files.</p>
-      </div> <br><br><br>
-      <div class="skill-row">
-        <a href="https://color-generator-theta-five.vercel.app/" target="_blank">
-          <img class="mma_img" src="colors.png" alt="">
-        </a>
-        <h3>Color Generator</h3>
-        <p>In this app, you can find colors with their name or Hex value, and copy it to your clipboard by clicking it.
-          Here
-          i used Values.js and more complex
-          styling and positioning.</p>
-      </div> <br><br><br>
-      <div class="skill-row">
-        <a href="https://drum-kit-one-silk.vercel.app/" target="_blank">
-          <img class="surfing_img" src="drum-set.png" alt="">
-        </a>
-        <h3>Drum Kit</h3>
-        <p>In this project, I developed an online drum kit, using HTML5, CSS, HTML DOM etc.</p>
-      </div> <br><br><br>
-      <hr>
-      <div class="skills">
-        <h2>About Myself</h2>
-        <p>I live in Tel Aviv (originally from Givat Ada) and work for a startup company.<br> In my free time, i surf
-          mostly
-          at Hilton beach, and train MMA for almost 16 years. <br> I am Ido's older brother and son of Eli and Aviva.
-        </p>
-      </div><br>
-      <hr><br><br>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Open for job offers and looking for my next challenge</h3>
-        <a class="myButton" href="mailto:guybenurion@gmail.com">CONTACT ME</a>
+  <body>
+    <nav class="nav">
+      <a href="#top" class="nav-brand mono">FLX</a>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button
+          class="theme-toggle"
+          data-theme-toggle
+          aria-label="Toggle theme"
+        >
+          <span class="theme-icon-dark" aria-hidden="true">☾</span>
+          <span class="theme-icon-light" aria-hidden="true">☀</span>
+        </button>
       </div>
-    </div> <br>
+    </nav>
 
+    <main>
+      <section class="hero" id="top">
+        <p class="eyebrow mono">// portfolio</p>
+        <h1>Guy Ben Urion</h1>
+        <p class="tagline">Software Developer based in Tel Aviv.</p>
+        <p class="lead">
+          I like owning the full arc: understanding the why, making the calls,
+          shipping when it counts. Ready for roles where the outcome is mine to drive.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a
+            class="btn btn-secondary"
+            href="https://github.com/GuyBenUrion"
+            target="_blank"
+            rel="noopener"
+            >GitHub ↗</a
+          >
+        </div>
+      </section>
 
-    <div class="bottom-container">
-      <a target="_blank" class="footer-link" href="https://www.linkedin.com/in/guy-ben-urion/">LinkedIn</a>
-      <a target="_blank" class="footer-link" href="https://github.com/GuyBenUrion">GitHub</a>
-      <a target="_blank" class="footer-link" href="https://api.whatsapp.com/send?phone=972509799101">Send Message</a>
-      <p>©2025 Guy Ben Urion</p>
-    </div>
-</body>
+      <section class="section" id="projects">
+        <header class="section-head">
+          <p class="eyebrow mono">// projects</p>
+          <h2>Selected work</h2>
+        </header>
 
+        <div class="project-grid">
+          <article class="card">
+            <h3>
+              <a
+                href="https://github.com/GuyBenUrion/live-data-visualizer"
+                target="_blank"
+                rel="noopener"
+                >Live Data Dashboard <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>
+              Real-time dashboard streaming 100 samples/sec × 10 values from a
+              TCP server to the browser over WebSockets and rendering with
+              Recharts.
+            </p>
+            <ul class="tech">
+              <li>Python</li>
+              <li>React</li>
+              <li>Recharts</li>
+              <li>WebSockets</li>
+              <li>TCP</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://github.com/GuyBenUrion/mqtt_chat"
+                target="_blank"
+                rel="noopener"
+                >MQTT Chat <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>
+              MQTT-based messaging with direct messages, client lookup, offline
+              message storage, and file transfers between clients.
+            </p>
+            <ul class="tech">
+              <li>Python</li>
+              <li>MQTT</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://github.com/GuyBenUrion/ip_finder"
+                target="_blank"
+                rel="noopener"
+                >IP Finder <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>
+              Web app for resolving local and domain IP addresses. FastAPI
+              backend, React frontend, fully containerized with Docker Compose.
+            </p>
+            <ul class="tech">
+              <li>FastAPI</li>
+              <li>React</li>
+              <li>Docker</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://github.com/GuyBenUrion/excel-viewer"
+                target="_blank"
+                rel="noopener"
+                >Excel Viewer &amp; Editor <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>
+              Full-stack web app to upload, preview, and edit .xlsx / .xls
+              files. Cells edit in-place, changes persist to IndexedDB, and sync
+              to the server only on save.
+            </p>
+            <ul class="tech">
+              <li>Angular</li>
+              <li>Flask</li>
+              <li>SheetJS</li>
+              <li>OpenPyXL</li>
+              <li>IndexedDB</li>
+            </ul>
+          </article>
+        </div>
+
+        <button
+          class="show-more"
+          data-show-more
+          aria-expanded="false"
+          aria-controls="older-projects"
+        >
+          <span class="show-more-label">Show older projects</span>
+          <span class="show-more-caret" aria-hidden="true">↓</span>
+        </button>
+
+        <div class="project-grid project-grid-extra" id="older-projects" hidden>
+          <article class="card">
+            <h3>
+              <a
+                href="https://lorem-ipsum-generator-seven.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                >Lorem Ipsum Generator <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>Hipster Lorem Ipsum generator built with React forms.</p>
+            <ul class="tech">
+              <li>React</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://tin-dog-kappa.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                >TinDog <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>Bootstrap practice — a Tinder-style landing page for dogs.</p>
+            <ul class="tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://kanye-west-project.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                >Kanye REST <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>
+              Early React project exploring hooks, timers, and REST API
+              consumption.
+            </p>
+            <ul class="tech">
+              <li>React</li>
+              <li>REST</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://keeper-sand.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                >Keeper <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>
+              Note-keeping app built with React, practicing component
+              composition and more complex hooks.
+            </p>
+            <ul class="tech">
+              <li>React</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://color-generator-theta-five.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                >Color Generator <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>
+              Find colors by name or hex and copy them to your clipboard with a
+              click. Uses Values.js.
+            </p>
+            <ul class="tech">
+              <li>React</li>
+              <li>Values.js</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>
+              <a
+                href="https://drum-kit-one-silk.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                >Drum Kit <span class="arrow">↗</span></a
+              >
+            </h3>
+            <p>Browser drum kit driven by keyboard and click events.</p>
+            <ul class="tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <header class="section-head">
+          <p class="eyebrow mono">// about</p>
+          <h2>About</h2>
+        </header>
+        <div class="prose">
+          <p>
+            I live in Tel Aviv (originally from Givat Ada) and work at a
+            startup as one of the founding developers. From day one I've owned
+            features end-to-end: architecture, implementation, production,
+            iteration.
+          </p>
+          <p>
+            Outside of work you'll usually find me riding hard enduro, or on
+            the mats — I've trained MMA for about 16 years. I'm Ido's older
+            brother, son of Eli and Aviva.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <header class="section-head">
+          <p class="eyebrow mono">// contact</p>
+          <h2>Get in touch</h2>
+        </header>
+        <p class="prose">
+          Open for job offers and looking for my next challenge.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:guybenurion@gmail.com">Email</a
+            ><span class="muted mono">guybenurion@gmail.com</span>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/guy-ben-urion/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn <span class="arrow">↗</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/GuyBenUrion"
+              target="_blank"
+              rel="noopener"
+              >GitHub <span class="arrow">↗</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=972509799101"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp <span class="arrow">↗</span></a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 Guy Ben Urion</span>
+    </footer>
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var toggle = document.querySelector("[data-theme-toggle]");
+        var stored = localStorage.getItem("theme");
+        if (stored === "light" || stored === "dark")
+          root.setAttribute("data-theme", stored);
+        toggle.addEventListener("click", function () {
+          var next =
+            root.getAttribute("data-theme") === "light" ? "dark" : "light";
+          root.setAttribute("data-theme", next);
+          localStorage.setItem("theme", next);
+        });
+
+        var showMore = document.querySelector("[data-show-more]");
+        var extras = document.getElementById("older-projects");
+        var label = showMore.querySelector(".show-more-label");
+        showMore.addEventListener("click", function () {
+          var hidden = extras.hasAttribute("hidden");
+          if (hidden) {
+            extras.removeAttribute("hidden");
+            label.textContent = "Show fewer";
+            showMore.setAttribute("aria-expanded", "true");
+            showMore.classList.add("is-open");
+          } else {
+            extras.setAttribute("hidden", "");
+            label.textContent = "Show older projects";
+            showMore.setAttribute("aria-expanded", "false");
+            showMore.classList.remove("is-open");
+          }
+        });
+      })();
+    </script>
+  </body>
 </html>
